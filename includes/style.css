@@ -4,7 +4,6 @@ header {
     padding-top: 76px;
     display: block;
     margin-left: 122px;
-
 }
 
 nav {
@@ -161,15 +160,12 @@ footer ul{
     overflow: hidden;
     margin-left: 122px;
     font-size: 18px;
-
 }
 
 footer ul li{
     float: left;
     padding-right: 59px;
     padding-top: 59px;
-    padding-bottom: 41px;
-
 }
 
 footer li a{
@@ -188,15 +184,15 @@ footer li a{
 .line{
     padding-left: 122px;
     height: 1px;
-    width: 1108px;
     background-color: #ffffff;
     align-content: center;
+    margin-top: 40px;
+    margin-right: 122px;
 }
 
 .icon {
-    margin-left:125px;
-    padding-top:42px;
-    margin-bottom: 43px;
+    margin-left:125px;  
+    margin-top:42px;
     display: inline-block;
 }
 
