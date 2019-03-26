@@ -3,12 +3,12 @@
 header {
     padding-top: 76px;
     display: block;
-    margin-left: 122px;
+    /*margin-left: 122px;*/
 }
 
 nav {
     display: block;
-    margin-left: 112px;
+    /*margin-left: 112px;*/
 }
 
 main {
@@ -18,7 +18,7 @@ main {
 
 section {
     display: block;
-    margin-left: 122px;
+    /*margin-left: 122px;*/
 }
 
 aside {
@@ -30,6 +30,12 @@ footer{
     background-color: #515151;
     height: 240px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#wrapper{
+    width: 1150px;
+    margin: 0px auto;
+    
 }
 
 /*head line text*/
@@ -50,7 +56,7 @@ header a{
     background-image: url("../photos/logo.png");
     background-size: contain;
     height: 88px;
-    width: 1000px;
+    width: 1116px;
     background-repeat: no-repeat;
     display: inline-block;
 }
@@ -72,8 +78,7 @@ header a span{
 
 ul.Mnav {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: -4px;
     overflow: hidden;
     margin-bottom: 40px;
     margin-top: 26px;
@@ -89,7 +94,8 @@ li.Mnav {
 li a.Mnav{
     display: block;
     color: #000000;
-    padding: 5px 10px;
+    padding: 5px;
+    margin-right: 10px;
     text-decoration: none;
 }
 nav ul li a:hover{
@@ -143,8 +149,12 @@ nav ul li a:hover{
 
 .cover {
     display: inline-block;
-    padding-right: 30px;
+    padding-right: 46px;
 
+}
+
+.coverend{
+    display: inline-block;
 }
 
 .morepad{
@@ -158,7 +168,7 @@ footer ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin-left: 122px;
+    /*margin-left: 122px;*/
     font-size: 18px;
 }
 
@@ -182,16 +192,16 @@ footer li a{
 }
 
 .line{
-    padding-left: 122px;
+    /*margin-left: 122px;*/
     height: 1px;
     background-color: #ffffff;
     align-content: center;
     margin-top: 40px;
-    margin-right: 122px;
+    /*margin-right: 122px;*/
 }
 
 .icon {
-    margin-left:125px;  
+    /*margin-left:10px;*/ 
     margin-top:42px;
     display: inline-block;
 }
