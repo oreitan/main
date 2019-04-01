@@ -32,6 +32,10 @@ footer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body{
+    background-color: #F2F2F2;
+}
+
 /*head line text*/
 
 .head {
