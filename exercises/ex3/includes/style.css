@@ -9,6 +9,9 @@ footer {
     display:block; 
 }
 
+.clear{
+    clear: both;
+}
 
 header {
     width:100%;
@@ -23,19 +26,66 @@ footer {
     background-color: #000000;
 }
 
-#layout1 main{
-    width: 881px;
-    height:860px;
+
+.boxes{
     margin: 0 auto;
-    background-color: #333333;
 }
 
- #layout1 header nav{
+
+/* Layout1 */
+
+
+
+#layout1 .wrappwr{
+    margin: 0 auto;
+    width: 952px; /* bast on figma */
+}
+
+#layout1 main{
+    width: 1440px;
+    height:1000px;
+    margin: 0 auto;
+}
+
+ header nav{
+    font-size: 24px;
     width: 300px;
     height: 33px;
     margin: 50px auto;
-    background-color: #000000;
+    /* background-color: #000000; */
 }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+    margin-top: 26px;
+    text-transform: uppercase;
+   
+}
+
+li{
+    float: left;
+    
+}
+
+li a{
+    display: block;
+    color: #ffffff;
+    margin-right: 17px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #000000;
+
+    
+}
+
+
+nav ul li a:hover{
+    color: #1434E1;
+ }
+
 
 .boxes div{
     position: absolute;
@@ -43,11 +93,26 @@ footer {
 }
 
 #layout1 .text {
+    margin-top: 267px;
     float: left;
     width: 50%;
     height: 120px;
-    background-color: blue;
+   /*  background-color: blue; */
 
+}
+
+#layout1 h1{
+    font-style: normal;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+#layout1 h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: normal;
 }
 
 #layout1 .boxes{
@@ -57,17 +122,313 @@ footer {
     float: left;
     width: 50%;
     height: 500px;
-    background-color: red;
+    text-align: center;
+    /* background-color: red; */
+    
 
 }
 
 #layout1 .box1{
-    top: 44px;
+    position: relative;
+    top:135px;
     left: 0;
     width: 75px;
     height: 23px;
 }
 
-.clear{
-    clear: both;
+#layout1 .box4{
+    position: relative;
+    top: 143px;
+    left: 0;
+    width: 136px;
+    height: 46px;
+}
+
+#layout1 .box5{
+    position: relative;
+    top: 154px;
+    left: 0;
+    width: 134px;
+    height: 404px;
+}
+
+#layout1 .box6{
+    position: relative;
+    top: 165px;
+    left: 0;
+    width: 88px;
+    height: 28px; 
+}
+
+#layout1 .box7{
+    position: relative;
+    top: 172px;
+    left: 0;
+    width: 25px;
+    height: 26px;
+}
+
+#layout1 .box8{
+    position: absolute;
+    top: 673px;
+    left: 32px;
+    width: 25px;
+    height: 26px;
+    
+    
+}
+
+#layout1 .box9{
+    position: absolute;
+    top: 135px;
+    left: 149px;
+    width: 246px;
+    height: 352px;
+}
+
+#layout1 .box10{
+    position: absolute;
+    top: 503px;
+    left: 149px;
+    width: 123px;
+    height: 212px;
+}
+
+#layout1 .box11{
+    position: absolute;
+    top: 503px;
+    left: 286px;
+    width: 55px;
+    height: 105px;
+}
+
+#layout1 .box12{
+    position: absolute;
+    top: 615px;
+    left: 286px;
+    width: 110px;
+    height: 58px;
+}
+
+#layout1 .box13{
+    position: absolute;
+    top: 91px;
+    left: 409px;
+    width: 28px;
+    height: 55px;
+}
+
+#layout1 .box14{
+    position: absolute;
+    top: 157px;
+    left: 409px;
+    width: 28px;
+    height: 55px;
+}
+
+#layout1 .box15{
+    position: absolute;
+    top: 223px;
+    left: 409px;
+    width: 28px;
+    height: 55px;
+}
+
+#layout1 .box16{
+    position: absolute;
+    top: 289px;
+    left: 409px;
+    width: 28px;
+    height: 198px;
+}
+
+#layout1 .box17{
+    position: absolute;
+    top: 503px;
+    left: 382px;
+    width: 55px;
+    height: 105px;
+}
+
+
+
+/* Layout 2 */
+
+#layout2 .wrappwr{
+    margin: 0 auto;
+
+}
+
+
+#layout2 body{
+    width: 1440px;
+    height:2024px;
+}
+
+#layout2 main{
+    width: 969px;
+    height:1860px;
+    /* margin: 0 auto; */
+    /* background-color: #333333; */
+    overflow: hidden;
+
+    
+}
+
+#layout2 footer{
+    position: fixed;
+    bottom: 0;
+}
+
+/* #layout2 header nav{
+    width: 400px;
+    height: 33px;
+    margin: 50px auto;
+    background-color: #000000;
+} */
+
+
+
+#layout2 aside{
+    float: right;
+    width: 169px;
+    height: 1860px;
+    background-color: #ebef18;
+}
+
+ #layout2 aside ul{
+    margin-top: 1240px;;
+    text-align: center;
+    font-size: 96px;
+    word-wrap: break-word;
+    width: 81px;
+    margin-left: 44px;
+    
+ }
+
+ #layout2 aside ul a{
+     text-decoration: none;
+     color: #000000;
+     text-decoration: none;
+ }
+
+#layout2 .boxs01{
+    float: left;
+    margin-top: 49px;
+    width: 457px;
+    height: 1860px;
+}
+
+#layout2 .boxs02{
+    float:right;
+    margin-top: 197px;
+    margin-left: 55px;
+    width: 457px;
+    height: 1860px;
+}
+
+#layout2 .box1
+{   position: relative;
+    margin-top: 70px;
+    height: 299px;
+    width: 457px;
+    background-color: #c4c4c4;
+}
+
+
+#layout2 .sbox1
+{
+    position: relative;
+    top: 119px;
+    height: 80px;
+    width: 80px;
+    background-color: #000000;
+    float: left;
+}
+
+#layout2 .sbox2
+{
+    position: relative;
+    top: 247px;
+    height: 80px;
+    width: 80px;
+    background-color: #ffffff;
+    float: right;
+}
+
+#layout2 .sbox3
+{
+    position: relative;
+    top: 417px;
+    height: 80px;
+    width: 80px;
+    background-color: #000000;
+    float: left;
+}
+
+
+/* Layout 3 */
+
+#layout3 body{
+    width: 1440px;
+}
+
+#layput3 main{
+    display: flex;
+    float: left;
+    width: 964px;
+    height: 100%;
+    min-height: 995px;
+}
+
+#layout3 aside.menu{
+    display: flex;
+    float: left;
+    width: 327px;
+    min-height: 995px;
+    height: 100%;
+    background-color: #E5E5E5;
+}
+
+#layout3 aside.green{
+    display: flex;
+    float: right;
+    width: 104px;
+    min-height: 995px;
+    height: 100%;
+    background-color: rgba(24, 239, 33, 0.3);
+}
+
+#layout3 section.yellow{
+    width: 100%;
+    height: 463px;
+    background-color: #EBEF18;
+    top: 995;
+}
+
+#layout3 .blackbutton{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #000000;
+    top: 21px;
+    right: 24px;
+    float: right;
+}
+
+.show p{
+    color: #ffffff;
+}
+
+.blackbox{
+    background-color: #000000;
+    float: left;
+    margin: 123px 64px;
+    text-align: center;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.blackbox.correct p{
+    color: #ffffff;
 }
