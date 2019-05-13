@@ -27,32 +27,12 @@ footer {
 }
 
 
-.boxes{
-    margin: 0 auto;
-}
 
 
-/* Layout1 */
-
-
-
-#layout1 .wrappwr{
-    margin: 0 auto;
-    width: 952px; /* bast on figma */
-}
-
-#layout1 main{
-    width: 1440px;
-    height:1000px;
-    margin: 0 auto;
-}
-
- header nav{
-    font-size: 24px;
-    width: 300px;
-    height: 33px;
-    margin: 50px auto;
-    /* background-color: #000000; */
+.selectB{
+    background-image: url(../images/Ellipse.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
 
 ul{
@@ -67,6 +47,7 @@ ul{
 
 li{
     float: left;
+    padding-top: 40px;
     
 }
 
@@ -82,9 +63,39 @@ li a{
 }
 
 
-nav ul li a:hover{
-    color: #1434E1;
+nav ul li:hover{
+    background-image: url(../images/Ellipse.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+
  }
+
+/* Layout1 */
+
+.boxes{
+    margin: 0 auto;
+}
+
+#layout1 .wrappwr{
+    margin: 0 auto;
+    width: 952px; /* bast on figma */
+}
+
+#layout1 main{
+    width: 1440px;
+    height:1000px;
+    margin: 0 auto;
+}
+
+nav{
+    font-size: 24px;
+    width: 291px;
+    height: 33px;
+    margin: 50px auto;
+    /* background-color: #000000; */
+}
+
+
 
 
 .boxes div{
@@ -369,41 +380,42 @@ nav ul li a:hover{
 
 /* Layout 3 */
 
-#layout3 body{
-    width: 1440px;
+#layout3 .flex{
+    display: flex;
+    height: 100%;
+
 }
 
-#layput3 main{
-    display: flex;
+#layout3 nav{
+    
+}
+
+#layout3  main{
     float: left;
-    width: 964px;
-    height: 100%;
-    min-height: 995px;
+    width: 67vw;
+    min-height: 100vh;
+    clear: both;
 }
 
 #layout3 aside.menu{
-    display: flex;
     float: left;
-    width: 327px;
-    min-height: 995px;
-    height: 100%;
+    width: 25.8vw;
     background-color: #E5E5E5;
+    clear: both;
 }
 
 #layout3 aside.green{
-    display: flex;
     float: right;
-    width: 104px;
-    min-height: 995px;
-    height: 100%;
+    width: 7.2vw;
     background-color: rgba(24, 239, 33, 0.3);
+    clear: both;
 }
 
 #layout3 section.yellow{
     width: 100%;
     height: 463px;
     background-color: #EBEF18;
-    top: 995;
+    top: 995px;
 }
 
 #layout3 .blackbutton{
@@ -431,4 +443,27 @@ nav ul li a:hover{
 
 .blackbox.correct p{
     color: #ffffff;
+}
+
+
+
+@media (max-width: 500px) {
+     #layout3 .flex{
+         display: block;
+         overflow: hidden;
+     }
+
+     #layout3 aside.menu {
+         width: 100%;
+         height: 105px;
+     }
+
+     #layout3 main {
+         width: 100%;
+     }
+
+     #layout3 aside.green{
+         display: none;
+     }
+
 }
