@@ -433,7 +433,7 @@ nav{
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 1074px) {
      #layout3 .flex{
          display: block;
          overflow: hidden;
@@ -450,6 +450,10 @@ nav{
 
      #layout3 aside.green{
          display: none;
+     }
+
+     #layout3 li {
+         padding-top: 30px;
      }
 
 }
