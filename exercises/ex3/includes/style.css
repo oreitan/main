@@ -92,7 +92,6 @@ nav{
     width: 291px;
     height: 33px;
     margin: 50px auto;
-    /* background-color: #000000; */
 }
 
 
@@ -108,7 +107,6 @@ nav{
     float: left;
     width: 50%;
     height: 120px;
-   /*  background-color: blue; */
 
 }
 
@@ -134,9 +132,6 @@ nav{
     width: 50%;
     height: 500px;
     text-align: center;
-    /* background-color: red; */
-    
-
 }
 
 #layout1 .box1{
@@ -279,8 +274,6 @@ nav{
 #layout2 main{
     width: 969px;
     height:1860px;
-    /* margin: 0 auto; */
-    /* background-color: #333333; */
     overflow: hidden;
 
     
@@ -290,13 +283,6 @@ nav{
     position: fixed;
     bottom: 0;
 }
-
-/* #layout2 header nav{
-    width: 400px;
-    height: 33px;
-    margin: 50px auto;
-    background-color: #000000;
-} */
 
 
 
@@ -386,9 +372,6 @@ nav{
 
 }
 
-#layout3 nav{
-    
-}
 
 #layout3  main{
     float: left;
@@ -443,6 +426,7 @@ nav{
 
 .blackbox.correct p{
     color: #ffffff;
+    background: #EBEF18;
 }
 
 
