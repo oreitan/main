@@ -21,13 +21,10 @@ var creategambox = function(){
 
         blackbox.addEventListener('click',function(){
             if(!this.className.includes('show')){
-                console.log('show');
                 if(!this.className.includes('correct')){
-                    console.log('coo');
                     this.className = this.className + ' show';
                     
                     resList.push(this);
-                    console.log(resList.length);
                     setTimeout(function(){
                         
                         if(resList.length == 2){
@@ -60,15 +57,13 @@ var volComp = function(){
     var theLetterL = lSide.substring(commaIndex+2,slashIndex)
 
     if (theLetterR == theLetterL){
-        console.log(true);
         return true;
     }
-    console.log(false);
     return false;
 };
 
 var testRes = function(){
-    console.log('testres2');
+
     if(volComp()){
         for(var i = 0; i < resList.length; i++){
             resList[i].className = resList[i].className.replace('show','correct');

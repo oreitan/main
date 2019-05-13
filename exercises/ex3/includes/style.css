@@ -411,6 +411,8 @@ nav{
     float: right;
 }
 
+/*JS*/
+
 .show p{
     color: #ffffff;
 }
@@ -424,11 +426,11 @@ nav{
     line-height: normal;
 }
 
-.blackbox.correct p{
-    color: #ffffff;
-    background: #EBEF18;
-}
 
+.blackbox.correct{
+    background-color: #EBEF18;
+    color: #ffffff;
+}
 
 
 @media (max-width: 500px) {
